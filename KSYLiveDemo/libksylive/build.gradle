@@ -27,3 +27,9 @@ dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.android.support:appcompat-v7:27.0.1'
 }
+
+
+
+task aar {//AS3.0之后需要产生aar，直接在Teraminal里面输入 gradlew aar
+}
+aar.dependsOn(build)

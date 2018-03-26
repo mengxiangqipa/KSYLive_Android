@@ -335,8 +335,10 @@ public class BaseCameraActivity extends Activity implements
             }
         });
         // 设置美颜滤镜，关于美颜滤镜的具体说明请参见专题说明以及完整版demo
+//        mStreamer.getImgTexFilterMgt().setFilter(mStreamer.getGLRender(),
+//                ImgTexFilterMgt.KSY_FILTER_BEAUTY_PRO3);
         mStreamer.getImgTexFilterMgt().setFilter(mStreamer.getGLRender(),
-                ImgTexFilterMgt.KSY_FILTER_BEAUTY_PRO3);
+                ImgTexFilterMgt.KSY_FILTER_BEAUTY_SOFT_SHARPEN);
     }
 
     private void startDebugInfoTimer() {

@@ -3,8 +3,7 @@
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="18dp"
-            tools:context=".DemoActivity">
+            android:layout_margin="18dp">
 
     <LinearLayout
         android:id="@+id/main"
@@ -50,7 +49,7 @@
             android:id="@+id/rtmpUrl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="rtmp://mobile.kscvbu.cn/live/androidtest" />
+            android:text="rtmp://192.168.0.31/live/test" />
 
         <Button
             android:id="@+id/connectBT"

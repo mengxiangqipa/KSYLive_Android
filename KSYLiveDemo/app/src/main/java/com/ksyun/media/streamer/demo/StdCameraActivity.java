@@ -25,7 +25,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ksyun.media.streamer.capture.CameraCapture;
 import com.ksyun.media.streamer.capture.camera.CameraTouchHelper;
+import com.ksyun.media.streamer.encoder.VideoEncodeFormat;
+import com.ksyun.media.streamer.framework.AVConst;
 import com.ksyun.media.streamer.kit.StreamerConstants;
 import com.ksyun.media.streamer.util.gles.GLRender;
 import com.lht.paintview.PaintView;
