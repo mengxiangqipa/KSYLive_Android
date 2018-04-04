@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 config.mFrameRate = 15.0f;
                 config.mVideoKBitrate = 800;
                 config.mAudioKBitrate = 48;
-                config.mUrl = "rtmp://192.168.0.32/live/test";
+                config.mUrl = "rtmp://192.168.0.17/live/test";
                 config.mCameraFacing = CameraCapture.FACING_FRONT;
                 config.mTargetResolution = StreamerConstants.VIDEO_RESOLUTION_360P;
                 config.mOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
